@@ -27,7 +27,7 @@ export function HeroSection() {
               >
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-gradient-to-br from-[#4A90E2]/20 to-[#FF7A6B]/20">
                   <ImageWithFallback
-                    src="src/profile-image.jpg"
+                    src="https://drive.google.com/file/d/12gVHa2ZIVoya5VrAI5FMtX6AFAswt01K/view?usp=sharing"
                     alt="Ranga Gnaneshwar"
                     className="w-full h-full object-cover"
                   />
