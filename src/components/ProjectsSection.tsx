@@ -21,7 +21,7 @@ export function ProjectsSection() {
     },
     {
       title: "Business Growth Study on Local Tea Sellers",
-      date: "May 2024",
+      date: "May 2025",
       description:
         "Conducted surveys and analyzed data with a team of 4 to interpret business models and growth patterns, developed a standardized questionnaire for efficient data collection and actionable insights, enabling identification of key factors driving sales and customer engagement.",
       icon: TrendingUp,
