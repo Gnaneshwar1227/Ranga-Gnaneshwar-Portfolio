@@ -22,7 +22,6 @@ export function HeroSection() {
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               >
-                {/* w-64 h-64 */}
                 <div className="w-64 h-66 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-gradient-to-br from-[#4A90E2]/20 to-[#FF7A6B]/20">
                   <ImageWithFallback
                     src="/profile-image.jpg"
@@ -62,13 +61,14 @@ export function HeroSection() {
               >
                 Ranga Gnaneshwar
               </h1>
-              {/* Title - Medium Size */}
+              
+              {/* Title - Medium Size with FIXED line height */}
               <h2
                 style={{ 
                   fontFamily: "'Poppins', sans-serif",
                   fontSize: 'clamp(1rem, 1.5vw, 1.8rem)',
                   fontWeight: 500,
-                  lineHeight: 0.1,
+                  lineHeight: 1.3, // Fixed from 0.1 to prevent overlap
                   color: '#2D3748',
                   textTransform: 'uppercase',
                   letterSpacing: '0.02em',
